@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress</title>
+</head>
+
+<body> 
+    <header>
+        <h1>"WordPress"</h1>
+    </header>
+
+    <nav id="navbar">
+        <header>WordPress Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Themes">Themes</a></li>
+            <li><a class="nav-link" href="#Plugins">Plugins</a></li>
+            <li><a class="nav-link" href="#Mobile_Applications">Mobile Applications</a></li>
+            <li><a class="nav-link" href="#Accessibility">Accessibility</a></li>
+            <li><a class="nav-link" href="#Code_Tips">Code Tips</a></li>
+            <li><a class="nav-link" href="#Awards_and_Recognition">Awards and Recognition</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>WordPress (WP, WordPress.org) is a free and open-source content management system (CMS) written in
+                    PHP[4] and paired with a MySQL or MariaDB database.</p>
+                <p>Features include a plugin architecture and a template system, referred to within WordPress as Themes.
+                    WordPress was originally created as a blog-publishing system
+                    but has evolved to support other web content types including more traditional mailing lists and
+                    forums,
+                    media galleries, membership sites, learning management systems (LMS) and online stores.</p>
+                <p>To function, WordPress has to be installed on a web server, either part of an Internet hosting
+                    service
+                    like
+                    WordPress.com or a computer running the software package WordPress.org in order to serve as a
+                    network
+                    host
+                    in its own right.[10] A local computer may be used for single-user testing and learning purposes.
+                </p>
+                <p>"WordPress is a factory that makes webpages"[11] is a core analogy designed to clarify the functions
+                    of
+                    WordPress: it stores content and enables a user to create and publish webpages, requiring nothing
+                    beyond
+                    a
+                    domain and a hosting service.</p>
+                <p>WordPress has a web template system using a template processor. Its architecture is a front
+                    controller,
+                    routing all requests for non-static URIs to a single PHP file which parses the URI and identifies
+                    the
+                    target
+                    page. This allows support for more human-readable permalinks.</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Themes">
+            <header>Themes</header>
+            <article>
+                <p>WordPress users may install and switch among different themes. Themes allow users to change the look
+                    and
+                    functionality of a WordPress website without altering the core code or site content. Every WordPress
+                    website requires at least one theme to be present. Themes may be directly installed using the
+                    WordPress
+                    "Appearance" administration tool in the dashboard, or theme folders may be copied directly into the
+                    themes directory.[13] WordPress themes are generally classified into two categories: free and
+                    premium.
+                    Many free themes are listed in the WordPress theme directory (also known as the repository), and
+                    premium
+                    themes are available for purchase from marketplaces and individual WordPress developers. WordPress
+                    users
+                    may also create and develop their own custom themes.</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Plugins">
+            <header>Plugins</header>
+            <article>
+                <p>WordPress' plugin architecture allows users to extend the features and functionality of a website or
+                    blog. As of December 2021, WordPress.org has 59,756 plugins available,[15] each of which offers
+                    custom
+                    functions and features enabling users to tailor their sites to their specific needs. However, this
+                    does
+                    not include the premium plugins that are available (approximately 1,500+), which may not be listed
+                    in
+                    the WordPress.org repository. These customisations range from search engine optimization (SEO), to
+                    client portals used to display private information to logged-in users, to content management
+                    systems, to
+                    content displaying features, such as the addition of widgets and navigation bars. Not all available
+                    plugins are always abreast with the upgrades, and as a result, they may not function properly or may
+                    not
+                    function at all. Most plugins are available through WordPress themselves, either via downloading
+                    them
+                    and installing the files manually via FTP or through the WordPress dashboard. However, many third
+                    parties offer plugins through their own websites, many of which are paid packages.
+
+                <p> Web developers who wish to develop plugins need to learn WordPress' hook system which consists of
+                    over
+                    2,000 hooks (as of Version 5.7 in 2021)[16] divided into two categories: action hooks and filter
+                    hooks.
+                </p>
+
+                <p>Plugins also represent a development strategy that can transform WordPress into all sorts of software
+                    systems and applications, limited only by the imagination and creativity of the programmers. These
+                    are
+                    implemented using custom plugins to create non-website systems, such as headless WordPress
+                    applications
+                    and Software as a Service (SaaS) products.</p>
+
+                <p>Plugins also could be used by hackers targeting the site that use WordPress, as hackers could exploit
+                    bugs on WordPress plugins themselves instead of exploiting the bugs on WordPress itself</p>
+            </article>
+        </section>
+
+
+        <section class="main-section" id="Mobile_Applications">
+            <header>Mobile Applications</header>
+            <article>
+                <p>Phone apps for WordPress exist for WebOS,[18] Android,[19] iOS,[20][21] Windows Phone and
+                    BlackBerry.[22]
+                    These applications, designed by Automattic, have options such as adding new blog posts and pages,
+                    commenting, moderating comments, replying to comments in addition to the ability to view the stats.
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Accessibility">
+            <header>Accessibility</header>
+            <article>
+                <p>The WordPress Accessibility Team has worked to improve the accessibility for core WordPress as well
+                    as
+                    support a clear identification of accessible themes.[23] The WordPress Accessibility Team provides
+                    continuing educational support about web accessibility and inclusive design. The WordPress
+                    Accessibility
+                    Coding Standards state that "All new or updated code released in WordPress must conform with the Web
+                    Content Accessibility Guidelines 2.0 at level AA.</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Code_Tips">
+            <header>Code Tips</header>
+            <article>
+                <div>Is WordPress no code?</div>
+                <p>Building a WordPress site is mostly a code-free experience. We use the term mostly because using
+                    one of the many thousands of templates does not require coding knowledge. However, if any
+                    changes are made to the structure, styling, or even padding on a template, coding will be
+                    required.</p>
+
+                <div>Can I use WordPress for coding?</div>
+                <p>Does WordPress require coding? Yes. Some knowledge of coding would be helpful to changes to your
+                    website. Having a complete coding background while helpful is not required.</p>
+
+                <div> How do I write code in WordPress?</div>
+                <p> Simply edit the blog post or page where you want to display the code. On the post edit screen,
+                    add a
+                    new code block to your post. You can now enter the code <strong>"Snippet"</strong> in the text
+                    area of the block. After
+                    that, you can save your blog post and preview it to see the code block in action.</p>
+        </article>
+
+            <article>
+                <title> Codes Snippets for WordPress</title>
+                <div>Disable Admin Toolbar</div>
+                <p>Some caching systems will require you not to have different code for logged in users vs public users
+                    so disabling the WordPress admin toolbar can be useful for that case.
+
+                    If you want to disable the WordPress admin toolbar on all pages for logged in users use the snippet
+                    below in your themes functions.php. Example:</p>
+                    <code>?php</code>
+                <code>add_filter('show_admin_bar', '__return_false');</code>
+
+                <div>Add an Admin User with PHP</div>
+                <p>This code snippet is useful for adding a new admin to a site using the theme’s function.php.
+                    This snippet will make a user with the username/password/email set in the variables. It’s important
+                    to see that it will only try to make the user if it doesn’t exist based on the username/email so if
+                    you have an account with your email address already you can fill in email with dummy data:
+                </p>
+              
+                <code>function smartwp_create_admin_user(){
+                    $username = 'yourusername';
+                    $password = '2JyAEQJ9B9Jf5T8a';
+                    $email = 'change@me.com';
+                }</code>
+                
+                    <code>if ( !username_exists( $username ) && !email_exists( $email ) ) {
+                        $userid = wp_create_user( $username, $password, $email );
+                        $user = new WP_User( $userid );
+                        $user->set_role( 'administrator' );
+                      }</code>
+
+                      <div>Disable XML-RPC in WordPress</div>
+                      <p>Very rarely do you need XML-RPC enabled on your WordPress site but having it enabled can cause a slew of security issues.
+
+                        If you use the WordPress app you may need to keep it enabled but I have rarely seen any case where XML-RPC enabled.
+                        
+                        This code snippet will disable XML-RPC to improve site security:</p>
+                       
+                        <code>add_filter('xmlrpc_enabled', '__return_false');</code>
+
+
+            </article>
+        </section>
+
+        <section class="main-section" id="Awards_and_Recognition">
+            <header>Awards and Recognition</header>
+            <ul>
+                <li>Winner of InfoWorld's "Best of open source software awards: Collaboration", awarded in 2008.
+                </li>
+                <li>Winner of Open Source CMS Awards's "Overall Best Open Source CMS", awarded in 2009</li>
+                <li>Winner of digital synergy's "Hall of Fame CMS category in the 2010 Open Source", awarded in
+                    2010.
+                </li>
+                <li>Winner of InfoWorld's "Bossie award for Best Open Source Software", awarded in 2011.</li>
+                <li>WordPress has a five star privacy rating from the Electronic Frontier Foundation.</li>
+            </ul>
+        </section>
+
+
+
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
